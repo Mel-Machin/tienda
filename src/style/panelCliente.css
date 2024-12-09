@@ -1,0 +1,49 @@
+.panelCliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.panelCliente > div:first-child {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.panelCliente button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.panelCliente button:hover {
+    background-color: #0056b3;
+}
+
+.panelCliente button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+.panelCliente > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.panelCliente > div > div button {
+    background-color: #28a745;
+}
+
+.panelCliente > div > div button:hover {
+    background-color: #218838;
+}

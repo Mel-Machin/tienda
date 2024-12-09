@@ -1,0 +1,50 @@
+#gestionCompra {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#gestionCompra label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#gestionCompra select,
+#gestionCompra input[type="date"] {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#gestionCompra h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#gestionCompra ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#gestionCompra li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#gestionCompra li p {
+    margin: 5px 0;
+}
+
+#gestionCompra .producto-imagen {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin-top: 10px;
+}

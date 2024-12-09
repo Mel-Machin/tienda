@@ -1,0 +1,111 @@
+/* Estilo para el contenedor principal */
+.gestion-juegos {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el título principal */
+.gestion-juegos h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para el formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario input, .formulario select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el filtro de stock */
+.filtro-stock {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.filtro-stock input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para la lista de videojuegos */
+.lista-videojuegos {
+    margin-top: 20px;
+}
+
+.lista-videojuegos h2 {
+    text-align: center;
+    color: #333;
+}
+
+.lista-videojuegos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.lista-videojuegos th, .lista-videojuegos td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.lista-videojuegos th {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.lista-videojuegos td img {
+    border-radius: 5px;
+}
+
+/* Estilo para los botones de acción en la tabla */
+.lista-videojuegos button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.lista-videojuegos button:hover {
+    background-color: #0056b3;
+}
+
+.lista-videojuegos button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+.lista-videojuegos button:nth-child(2):hover {
+    background-color: #c82333;
+}
+
+/* Hover effect for table rows */
+.lista-videojuegos tbody tr:hover {
+    background-color: #f1f1f1;
+}
